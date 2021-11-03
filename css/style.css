@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 50px;
+    font-family: 'Bebas';
 }
 .main-logo {
     width: 103px;
@@ -117,6 +118,7 @@ body {
     padding-left: 14px;
     font-family: 'Bebas';
     font-size: 24px;
+    line-height: 15px;
 }
 .one{
     background-image: url('../img/1.png');
@@ -126,4 +128,53 @@ body {
 }
 .three{
     background-image: url('../img/3.png');
+}
+.capability{
+    width: 1150px;
+    margin: 0 auto; 
+}
+.flex-menu{
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    align-content: center;
+}
+.uncenter{
+    margin: 20px 1px;
+}
+.heading{
+    font-family: 'Bebas';
+    font-size: 36px;
+}
+.para{
+    font-size: 16px;
+    width:300px;
+    font-family: 'Bebas';
+
+}
+.btn{
+    background-color: #00A4E5;
+    width: 300px;
+    height: 50px;
+    font-family: 'Bebas';
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.items-s{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.item-s{
+    width: 300px;
+    border: 1px solid #E6E6E6;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.item-s h1{
+    font-family: 'Bebas';
+}
+.item-s p{
+    font-family: 'Bebas';
 }
