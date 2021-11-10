@@ -101,6 +101,7 @@ body {
 .story-text-p {
     font-size: 18px;
     font-family: 'Bebas';
+    font-weight: normal;
 }
 .story-img {
     width: 50%;
@@ -117,7 +118,7 @@ body {
 .text-story{
     padding-left: 14px;
     font-family: 'Bebas';
-    font-size: 24px;
+    font-size: 30px;
     line-height: 15px;
 }
 .one{
@@ -131,7 +132,9 @@ body {
 }
 .capability{
     width: 1150px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    margin-top: 50px;
+
 }
 .flex-menu{
     display: flex;
@@ -176,5 +179,21 @@ body {
     font-family: 'Bebas';
 }
 .item-s p{
+    font-family: 'Bebas';
+}
+.fadedbuild{
+    height: 50vh;
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
     font-family: 'Bebas';
 }
