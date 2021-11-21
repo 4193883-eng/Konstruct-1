@@ -137,7 +137,7 @@ body {
     background-image: url('../img/3.png');
 }
 .capability{
-    width: 1150px;
+    max-width: 1150px;
     margin: 0 auto;
     margin-top: 50px;
 
@@ -224,5 +224,6 @@ body {
     }
     .item-s{
         margin: auto;
+        margin-bottom: 25px;
     }
 }
